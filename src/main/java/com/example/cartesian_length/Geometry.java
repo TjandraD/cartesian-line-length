@@ -9,4 +9,11 @@ public class Geometry {
 
         return coordinate;
     }
+
+    public double calculateDistance(int [] coordinate1, int [] coordinate2) {
+        int x = coordinate1[0] - coordinate2[0];
+        int y = coordinate1[1] - coordinate2[1];
+
+        return Math.sqrt((x*x) + (y*y));
+    }
 }
