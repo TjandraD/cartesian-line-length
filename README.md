@@ -8,6 +8,16 @@ As a fan of geometry, I want to model a line based on points consisting of (x, y
 - JDK 11.0 or higher installed ([see this link for installation](https://docs.oracle.com/en/java/javase/17/install/overview-jdk-installation.html))
 - JUnit 5.0 or higher installed, for running the tests ([see this link for installation](https://junit.org/junit5/docs/current/user-guide/#overview-getting-started-junit-artifacts))
 
+## How to Use This Package
+```
+Geometry geometry = new Geometry();
+
+int [] firstPoint = {1, 2};
+int [] secondPoint = {3, 4};
+
+double lineLength = geometry.calculateDistance(firstPoint, secondPoint);
+```
+
 ## How to Build The Program
 - Open a terminal
 - Change the working directory into the current project directory
